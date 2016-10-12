@@ -1,4 +1,3 @@
-//Jeff Chastine
 #include <Windows.h>
 #include <GL\glew.h>
 #include <GL\freeglut.h>
@@ -17,9 +16,7 @@ void render()
 	glutSwapBuffers();
 }
 
-
-
-int main(int argc, char* argv[]) {
+/*int main(int argc, char* argv[]) {
 
 	// Initialize GLUT
 	glutInit(&argc, argv);
@@ -41,7 +38,6 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-
 	glutMainLoop();
 	return 0;
-}
+}*/
