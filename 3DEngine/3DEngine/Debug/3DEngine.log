@@ -1,10 +1,15 @@
-﻿Сборка начата 11.10.2016 9:44:27.
+﻿Сборка начата 13.10.2016 13:06:36.
      1>Проект "D:\Work\C++\3DEngine\3DEngine\3DEngine\3DEngine\3DEngine.vcxproj" в узле 2 (целевые объекты Build).
-     1>Link:
+     1>ClCompile:
+         D:\Programs\Visual Studio\VC\bin\CL.exe /c /ID:\Work\C++\3DEngine\3DEngine\3DEngine\GLEW\freeglut\include /I"D:\Work\C++\3DEngine\3DEngine\3DEngine\GLEW\glew-1.11.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
          D:\Programs\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\C++\3DEngine\3DEngine\3DEngine\Debug\3DEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Work\C++\3DEngine\3DEngine\3DEngine\GLEW\freeglut\lib /LIBPATH:"D:\Work\C++\3DEngine\3DEngine\3DEngine\GLEW\glew-1.11.0\lib" freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Work\C++\3DEngine\3DEngine\3DEngine\Debug\3DEngine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\C++\3DEngine\3DEngine\3DEngine\Debug\3DEngine.lib" /MACHINE:X86 Debug\Hello.obj
+         Debug\Init.obj
+         Debug\main.obj
          3DEngine.vcxproj -> D:\Work\C++\3DEngine\3DEngine\3DEngine\Debug\3DEngine.exe
      1>Сборка проекта "D:\Work\C++\3DEngine\3DEngine\3DEngine\3DEngine\3DEngine.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:00.66
+Затраченное время: 00:00:01.97

@@ -1,4 +1,4 @@
-#include <Windows.h>
+/*#include <Windows.h>
 #include <GL\glew.h>
 #include <GL\freeglut.h>
 #include <iostream>
@@ -16,7 +16,7 @@ void render()
 	glutSwapBuffers();
 }
 
-/*int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
 
 	// Initialize GLUT
 	glutInit(&argc, argv);
@@ -29,7 +29,6 @@ void render()
 	// Bind the two functions (above) to respond when necessary
 	glutReshapeFunc(changeViewPort);
 	glutDisplayFunc(render);
-
 	// Very important!  This initializes the entry points in the OpenGL driver so we can 
 	// call all the functions in the API.
 	GLenum err = glewInit();
@@ -38,6 +37,6 @@ void render()
 		return 1;
 	}
 
-	glutMainLoop();
+	//glutMainLoop();
 	return 0;
 }*/
